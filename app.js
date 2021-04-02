@@ -1456,22 +1456,21 @@ function h(nodeName, attrs, ...children){
 						result.current.innerHTML = "NIS não disponivel na lista disponibilizada pelo Governo Estadual. <hr>"
 					}
 				}}, "consultar")
-				var img = h('img', {src: 'g.jpg', width:100, height:100})
+				var img = h('img', {src: 'https://cdn.jsdelivr.net/gh/maerli/valegas/g.jpg', width:100, height:100})
 				return h('div', { style:{
 					display: "flex",
 					'flex-direction':'column',
 					'align-items':'center'
 
-				}}, foot, img, p , input, button, div, ads)
+				}}, foot, img, p , input, button, div)
 			}
 			const foot = h('h6', null, "Este site não é uma fonte oficial do Governo Estadual, consulte ", h("a", {href:"https://www.ceara.gov.br/2021/03/31/governo-do-ceara-divulga-lista-de-familias-beneficiadas-com-vale-gas-social/"},  "https://www.ceara.gov.br/2021/03/31/governo-do-ceara-divulga-lista-de-familias-beneficiadas-com-vale-gas-social/"))
 			
-			const ads = h('a', {}, "Anúncios")
 			function P(){
 				return h('p', null, 'meu nome')
 			}
 
-
+//https://cdn.jsdelivr.net/gh/maerli/valegas/app.js
 		render( h(Home)  , document.querySelector('#root'))
 
 		})()
