@@ -1456,7 +1456,7 @@ function h(nodeName, attrs, ...children){
 						result.current.innerHTML = "NIS não disponivel na lista disponibilizada pelo Governo Estadual. <hr>"
 					}
 				}}, "consultar")
-				var img = h('img', {src: 'https://cdn.jsdelivr.net/gh/maerli/valegas/g.jpg', width:100, height:100})
+				var img = h('img', {src: 'https://cdn.jsdelivr.net/gh/maerli/valegas@latest/g.jpg', width:100, height:100})
 				return h('div', { style:{
 					display: "flex",
 					'flex-direction':'column',
