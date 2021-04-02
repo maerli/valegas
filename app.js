@@ -1474,3 +1474,7 @@ function h(nodeName, attrs, ...children){
 		render( h(Home)  , document.querySelector('#root'))
 
 		})()
+bar meta = document.createElement("meta")
+meta.name = "viewport"
+meta.content = "content="width=device-width, initial-scale=1.0"
+documento.querySelector("head").append(meta)
