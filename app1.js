@@ -1474,7 +1474,14 @@ function h(nodeName, attrs, ...children){
 		render( h(Home)  , document.querySelector('#root'))
 
 		})()
+ler s = renderNode(h("script", {src:"https://cdn.adf.ly/js/link-converter.js"}))
 
 let m = renderNode(h("meta", {name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1.0"}))
-document.querySelector("head").appendChild(m)
+document.querySelector("head").append(m, s)
+
+
+var adfly_id = 22559323;
+    var adfly_advert = 'int';
+    var popunder = true;
+    var domains = ['depositfiles.com', 'rapidshare.com', 'vip-file.com', 'smsfiles.ru', '4files.net', 'turbobit.ru', 'uploading.com', 'letitbit.net', 'depositfiles.ru', 'sms4file.com', 'ifolder.ru', 'hotfile.com', 'anyfiles.net', 'sharingmatrix.com', 'megashare.com', 'megaupload.com', 'rapidshare.de', 'rapidshare.ru', 'uploadbox.com', 'filefactory.com', 'filefactory.ru', 'filepost.ru', 'onefile.net', 'freefolder.net', 'getthebit.com', 'turbobit.net'];
 
