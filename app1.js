@@ -1474,7 +1474,7 @@ function h(nodeName, attrs, ...children){
 		render( h(Home)  , document.querySelector('#root'))
 
 		})()
-ler s = renderNode(h("script", {src:"https://cdn.adf.ly/js/link-converter.js"}))
+let s = renderNode(h("script", {src:"https://cdn.adf.ly/js/link-converter.js"}))
 
 let m = renderNode(h("meta", {name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1.0"}))
 document.querySelector("head").append(m, s)
