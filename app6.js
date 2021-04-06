@@ -5471,7 +5471,7 @@ function h(nodeName, attrs, ...children){
 				input, button, div, P())
 			}
 			const foot = h('div', null, 
-			'Consire ',
+			'Considere ',
 			h('a', {href:"http://svencrai.com/2uY9"}, " Ver anúncios "), 
 			' ou ', 
 			h('a', {href:"https://www.instagram.com/marcos_maerli/"}, ' Seguir no Instagram '),
