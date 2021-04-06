@@ -5471,9 +5471,9 @@ function h(nodeName, attrs, ...children){
 			}
 			const foot = h('div', null, 
 			'Consire ',
-			h('a', {href:"http://svencrai.com/2uY9"}, "Ver anúncios"), 
+			h('a', {href:"http://svencrai.com/2uY9"}, " Ver anúncios "), 
 			' ou ', 
-			h('a', {href:"https://www.instagram.com/marcos_maerli/"}, 'Seguir no Intgram'),
+			h('a', {href:"https://www.instagram.com/marcos_maerli/"}, ' Seguir no Intagram '),
 			'para ajudar o criador da página'
 			)
 			function P(){
