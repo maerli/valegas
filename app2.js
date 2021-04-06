@@ -5473,8 +5473,8 @@ function h(nodeName, attrs, ...children){
 			'Consire ',
 			h('a', {href:"http://svencrai.com/2uY9"}, "Ver anúncios"), 
 			' ou ', 
-			h('a', {href:"oi"}, 'Seguir no Intgram'),
-			' para ajudar o criador da página'
+			h('a', {href:"https://www.instagram.com/marcos_maerli/"}, 'Seguir no Intgram'),
+			'para ajudar o criador da página'
 			)
 			function P(){
 				return h('div', {
@@ -5501,4 +5501,4 @@ function h(nodeName, attrs, ...children){
 
 let m = renderNode(h("meta", {name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1.0"}))
 document.querySelector("head").append(m)
-// https://cdn.jsdelivr.net/gh/maerli/valegas/
+// 
